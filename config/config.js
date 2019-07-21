@@ -88,6 +88,16 @@ export default {
       authority: ['admin', 'user'],
       routes: [
         {
+          name: 'settings',
+          path: '/account/settings',
+          component: './account/settings',
+        },
+        {
+          name: 'account',
+          path: '/account',
+          component: './account',
+        },
+        {
           path: '/',
           name: 'welcome',
           icon: 'smile',
